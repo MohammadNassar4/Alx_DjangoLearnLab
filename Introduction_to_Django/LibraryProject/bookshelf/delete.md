@@ -1,3 +1,4 @@
+from bookshelf.models import Book
 book_id = retrieved_book.id
 retrieved_book.delete()
 print(f"Book with ID {book_id} has been deleted")
